@@ -1,3 +1,4 @@
+# KenKen
 # The function that gives the user instructions
 def help():
     print("This program only works for a 9x9 KenKen.")
