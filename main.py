@@ -133,8 +133,9 @@ dupes = 0
 print("Enter 'quit' to stop and 'help' for instructions.")
 
 while True:
-    op = input("Operation: ")
+    op = input("Operation: ").lower()
     if op == "quit":
+        print("\n")
         break
     if op == "help":
         help()
